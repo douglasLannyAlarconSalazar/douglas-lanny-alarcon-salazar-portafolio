@@ -24,7 +24,7 @@ const Index = () => {
   return (
     <div className='px-10 pt-10  flex flex-col gap-5 bg-background-menu'>
       {
-        Education.map( e => <EducationCard institute = {e.institute} date={e.date} description={e.description} /> )
+        Education.map( (e,i) => <EducationCard key={i} institute = {e.institute} date={e.date} description={e.description} /> )
       }
     </div>
   )

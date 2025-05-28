@@ -9,7 +9,7 @@ const Index = () => {
 
         <div className='flex flex-col gap-5'>
           <h1 className='sm:w-[500px]'>
-            I'm Douglas Alarcón <span className='text-primary'>Front-end Developer</span>
+            I amm Douglas Alarcón <span className='text-primary'>Front-end Developer</span>
           </h1>
 
           <p className='sm:w-[424px]'>

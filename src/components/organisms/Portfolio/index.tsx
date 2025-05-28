@@ -57,8 +57,8 @@ const Index = () => {
     <div className='carousel' >
       <div className='carousel-track'>
         {
-          Posts.map((p) =>
-            <BlogPost title={p.title} description={p.description} />
+          Posts.map((p,i) =>
+            <BlogPost key={i} title={p.title} description={p.description} />
           )
         }
       </div>

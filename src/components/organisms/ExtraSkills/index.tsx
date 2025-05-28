@@ -7,8 +7,8 @@ const Index = ({items} : {items: string[]}) => {
   return (
       <>
         {
-          items.map((item) =>
-            <div className='flex gap-3'>
+          items.map((item, i) =>
+            <div key={i} className='flex gap-3'>
               <SkillIcon />
               <p>
                 {
